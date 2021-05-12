@@ -43,19 +43,24 @@ body{
     "social-header"
     "social-review";
     width: 90%;
-    margin: 50px 0px;    
+    margin: 30px 0px;    
 }
 
 /* social-header section  */
 .social-header{
     grid-area: social-header;
     text-align: center;
+    margin-bottom: 30px;
 }
 
-h1{
+.social-title h1{
     font-size: 30px;
     color: var(--very-dark-magenta);
-    font-weight: 700; 
+    font-weight: 700;
+}
+
+.social-title p{
+    margin: 20px 0px;
 }
 
 /* rating section  */
@@ -63,15 +68,15 @@ h1{
 
 .ratings-div{
     background-color: var(--light-grayish-magenta);
-    padding: 10px;
-    margin-bottom: 30px;
-    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 7px;
 }
 
 .rating-star{}
 
 .rating-title{
-    font-weight: 500;
+    font-weight: 700;
     color: var(--very-dark-magenta);
 }
 
@@ -80,19 +85,48 @@ h1{
     grid-area: social-review;
 }
 
-.cards{}
+.cards-wrapper{
+    
+}
 
-.card{}
+.card{
+    background-color: var(--very-dark-magenta);
+    color: var(--light-grayish-magenta);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
 
-.profile{}
+.profile{
+    display: flex;
+    margin-bottom: 20px;
+}
 
-.profile img{}
+.profile img{
+    border-radius: 50%;
+    margin-right: 30px;
+    width: 50px;
+    height: 50px;
+}
 
 .profile-info{}
 
-h3{}
+.profile-info h3{
+    color: var(--light-grayish-magenta);
+    font-weight: 500;
+}
 
-.profile-review{}
+.profile-info p{
+    color: var(--soft-pink);
+}
+
+.profile-review{
+    color: var(--light-grayish-magenta);
+    line-height: 20px;
+
+}
 
 
 
